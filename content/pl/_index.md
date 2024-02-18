@@ -4,6 +4,7 @@
   educationSummary: "Skończyłem DMU w Leicester"
   education: "Edukacja"
   career: "Kariera"
+  careerOverview: "Lorem ipsum"
   careerSummary1: "1"
   careerSummary2: "2"
   careerSummary3: "3"

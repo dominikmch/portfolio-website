@@ -1,6 +1,6 @@
 baseURL: ''
 title: "Dominik Michalski"
-theme: PaperMod
+theme: dmichalski
 
 languages:
   en:
@@ -15,16 +15,12 @@ languages:
           weight: 10
         - identifier: skills
           name: Skills
-          url: /posts/
+          url: /skills/
           weight: 20
         - identifier: projects
           name: My Projects
-          url: "/projects/"
+          url: /projects/
           weight: 30
-        - identifier: cv
-          name: Download CV
-          url: "/CV Dominik Michalski.pdf"
-          weight: 40
     params:
       homeInfoParams:
         Title: "Hi, I’m Dominik \U0001F44B"
@@ -46,12 +42,8 @@ languages:
           weight: 20
         - identifier: projects
           name: Projekty
-          url: "/projects/"
+          url: /projects/
           weight: 30
-        - identifier: cv
-          name: Pobierz CV
-          url: "/CV Dominik Michalski.pdf"
-          weight: 40
     params:
       homeInfoParams:
         Title: "Cześć, nazywam się Dominik \U0001F44B"

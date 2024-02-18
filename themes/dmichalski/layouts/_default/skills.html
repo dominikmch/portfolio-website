@@ -1,0 +1,74 @@
+{{- define "main" }}
+<style>
+    .entry-content {
+        overflow: visible;
+    }
+
+    @media screen and (min-width:800px) {
+        .main {
+            max-width: none;
+        }
+    }
+
+    .tech-level {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .progress-bar {
+        width: 80%;
+        background-color: #fff;
+        /* White background */
+        border: 1px solid var(--primary);
+        /* Black border */
+        border-radius: 5px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        /* Adjust as needed */
+    }
+
+    .progress-bar-inner {
+        height: 20px;
+        background-color: var(--secondary);
+        /* Black color */
+        transition: width 0.5s ease;
+        /* Smooth transition for width changes */
+    }
+
+    .skill-name {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        /* White color for skill name */
+        font-weight: bold;
+        font-size: 14px;
+    }
+</style>
+<div class="entry-content skill-cards">
+    {{ $skills := .Params.skills }}
+    {{range $index, $skill := $skills}}
+    <div class="skill-container">
+        <div class="tech-logo-container">
+            <img src="{{ $skill.logo }}" class="tech-logo">
+            <span class="tech-name">{{ $skill.name }}</span>
+        </div>
+        <div class="tech-level">
+            <div class="progress-bar">
+                <div class="progress-bar-inner" style="width: {{ $skill.level }}%;"></div>
+            </div>
+        </div>
+        <div class="tech-description">
+            {{ $parts := split $skill.summary "%" }}
+            <ul>
+                {{ range $parts }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{- end }}
