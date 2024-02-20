@@ -1,4 +1,4 @@
-baseURL: ''
+baseURL: '/'
 title: "Dominik Michalski"
 theme: dmichalski
 
@@ -34,7 +34,7 @@ languages:
       main:
         - identifier: home
           name: O mnie
-          url: /pl
+          url: /pl/
           weight: 10
         - identifier: skills
           name: Umiejętności
