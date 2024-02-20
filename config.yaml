@@ -34,15 +34,15 @@ languages:
       main:
         - identifier: home
           name: O mnie
-          url: /
+          url: /pl
           weight: 10
         - identifier: skills
           name: Umiejętności
-          url: /skills/
+          url: /pl/skills/
           weight: 20
         - identifier: projects
           name: Projekty
-          url: /projects/
+          url: /pl/projects/
           weight: 30
     params:
       homeInfoParams:
