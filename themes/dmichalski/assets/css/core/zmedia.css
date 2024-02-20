@@ -1,4 +1,9 @@
 @media screen and (max-width: 768px) {
+    /* body */
+    body {
+        padding: 1rem;
+    }
+
     /* theme-vars */
     :root {
         --gap: 14px;
@@ -27,6 +32,41 @@
     .footer {
         padding: calc((var(--footer-height) - var(--gap) - 10px) / 2) var(--gap);
     }
+}
+
+@media screen and (min-width:800px) {
+
+    .skill-cards {
+        width: 50vw;
+        margin: auto;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .order-change-down {
+        order: 3;
+    }
+
+    .order-change-up {
+        order: 4;
+    }
+
+    .skill-container {
+        margin-top: 35px;
+        margin-bottom: 0;
+        width: 335px;
+        height: 335px;
+    }
+}
+
+@media screen and (min-width:1120px) {
+
+    /* .skill-cards {
+        width: 1200px;
+    } */
+
 }
 
 /* footer */
