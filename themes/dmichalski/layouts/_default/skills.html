@@ -30,7 +30,9 @@
             {{ $parts := split $skill.summary "|" }}
             <ul>
                 {{ range $parts }}
-                <li>{{ . }}</li>
+                <li>
+                    {{ . }}
+                </li>
                 {{ end }}
             </ul>
         </div>
@@ -38,7 +40,7 @@
     {{ end }}
     <div class="skill-container">
         <div class="tech-name" style="margin-top: 45px;">
-            Also know:
+            {{.Params.header1}}
         </div>
         <div class="progress-wrapper" style="margin-top: 0px;">
             {{ $skills := .Params.other }}
@@ -54,7 +56,7 @@
             {{ end }}
         </div>
         <div class="tech-name" style="margin-top: 5px;">
-            Trying to learn:
+            {{.Params.header2}}
         </div>
         <div class="progress-wrapper" style="margin-top: 0px;">
             {{ $skills := .Params.learning }}
