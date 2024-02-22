@@ -4,15 +4,30 @@
         <h1>{{ .Params.title }}</h1>
     </header>
     <div class="entry-content">
-        {{ .Params.biogsummary }}
+        {{ $parts := split .Params.biogsummary "|" }}
+        <ul>
+            {{ range $parts }}
+            <p>
+                {{ . }}
+            </p><br>
+            {{ end }}
     </div>
     <img src="/images/home.jpeg" style="margin-bottom: 30px;">
     <footer class="entry-footer">
         {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
     </footer>
-    <div class="entry-content">
+    <div class="entry-content" style="margin-bottom: 40px;">
+
         <h2>{{.Params.education}} 🎓</h3>
-            {{.Params.educationsummary}}
+            <p>{{.Params.educationsummary}}</p><br>
+            {{ $modules := .Params.modules }}
+            <ul id="modules-list">
+                {{range $index, $module := $modules}}
+                <li>
+                    {{ $module.name }}
+                </li>
+                {{ end }}
+            </ul>
     </div>
     <img src="/images/education.jpeg" style="margin-bottom: 30px;">
 

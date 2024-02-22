@@ -1,50 +1,52 @@
 ---
 title: 'Skills'
 layout: 'skills'
+header1: 'Potrafię rowniez:'
+header2: 'Uczę się:'
 skills:
   - name: 'Node.js'
     logo: '/logos/node-js.png'
-    summary: 'Created 5+ CRUD and more complex APIs. |Migrated a few legacy systems from PHP to Node. |My favourite backend language so far. |Feel really comfortable working with it. '
+    summary: 'Stworzyłem łącznie ponad 5 mniej lub bardziej skomplikowanych API  |Byłem odpowiedzialny za migracje starych systemów napisanych w PHP do Node. |Node.js jest moim ulubionym backendowym językiem i czuję się komfortowo tworząc abstakcyjne i skomplikowane systemy.'
     level: 85
     color: '#8eed11'
   - name: 'Docker'
     logo: '/logos/docker.png'
-    summary: 'Optimized development processes with dev-containers, which allowed our team to work in the exactly same environment. |Created countless dockerfiles for the deployment purposes (alpine, centos, ubuntu, node, nginx proxy).'
+    summary: 'Jednym z moich zadań było zoptymalizowanie procesu pisania oprogramowania poprzez dev-containers co umożliwiło kademu na pracę w identycznym środowisku. | Miałem szansę stworzyć kontenery które były uźywane do skomplikowanych wdroźeń. Były to głównie systemy oparte na Linuxie i serwerze apache lub nginx.'
     level: 60
     color: '#40bde3'
   - name: 'Linux'
     logo: '/logos/linux.png'
-    summary: 'Familiar with the most popular distros: Ubuntu, Centos, Alpine. |Created and configured extra security layer for Ubuntu/Centos with fail2ban and integrated it with Confluence. |Not a linux fanboy but really have to say - Windows <<< Linux.'
+    summary: 'Miałem przyjemność pracy z najbardziej popularnymi dystrybucjami: Ubuntu, Centos, Alpine. | Stworzyłem dodatkową warstwę zabezpieczającą przed atakami przy uyciu fail2ban, system był zintegrowany z confluence i tworzył dzienne raporty bezpieczeństwa dla IT. |Na codzień używam Windowsa ale muszę przyznać, e Windows <<< Linux.'
     level: 55
     color: '#e39f40'
   - name: 'MongoDB'
     logo: '/logos/mongodb.png'
-    summary: "Worked with huge amounts of GeoJSON data. |Created many aggregation queries to optimize system's performance. |Definitely prefer it more than SQL. |Feel confident in PHP,Node->MongoDB stacks."
+    summary: 'Pracowałem z olbrzymią ilością danych zapisanych w formacie GeoJSON. |Stworzyłem wiele strumieni agregacji w celu zoptymalizowania wydajności systemów. |Uwazam, ze MongoDB powinien być standardem w większości systemów. |Czuje się pewnie pracując w połączeniach PHP,Node->MongoDB.'
     level: 70
     color: '#8eed11'
   - name: 'MySQL'
     logo: '/logos/mysql.png'
-    summary: 'My experience with SQL in general is not great, however, had a chance to use it in few systems. |I can write basic queries and use returned data in either PHP or Node backend. |Although I prefer MongoDB, I am aware of the SQL advantages. '
+    summary: 'My experience with SQL in general is not great, however, had a chance to use it in few systems. Nie mam zbyt wiele doświadczenia z SQL jeśli chodzi o jego zaawansowaną stronę, jednake uywałem go wiele razy. |Potrafię napisać podstawowe query dla aplikacji CRUD i uyć otrzymanych danych w backendach w PHP lub Node.'
     level: 30
     color: '#40bde3'
   - name: 'Vue.js'
     logo: '/logos/vue.png'
-    summary: 'Built many smaller and bigger systems with Vue. |Used both composition and options API. |Integrated MSAL and Azure with one of the Vue projects. |Worked with complex map based UIs (Leaflet.js)'
+    summary: 'W swojej karierze stworzyłem kilka mniejszych i większych front endów w Vue. |Uywałem composition i options API. |Udało mi się zintegrować z Vue bibliotekę MSAL do logowania, oraz Azure do definiowania uytkowników i ich przywilejów. |Pracowałem ze skomplikowanymi interfejsami, które zawierały mapy napisane w Leaflet.js'
     level: 75
     color: '#c9c1b5'
   - name: 'AWS'
     logo: '/logos/aws.png'
-    summary: 'I have experience with launching instances either from scratch or AMI. |Configured security groups and private links. |Set up peering links between different VPCs. |Do not feel 100% comfortable with AWS in general but I am getting there!'
+    summary: 'Mam doświadczenie w uruchamianiu instancji od podstaw lub uzywając gotowych AMI. |Potrafię skonfigurować grupy zabezpieczeń oraz prywatne łącza np. dla baz danych hostowanych w AWS. |AWS zacząłem się uczyć dość niedawno, więc nie czuję się jeszcze w 100% pewny, z dnia na dzień chłonę jednak coraz więcej wiedzy.'
     level: 35
     color: '#eb8c07'
   - name: 'PHP'
     logo: '/logos/php.png'
-    summary: "Spent countless hours with PHP, however, in most cases it wasn't either Laravel or even a Slim framework, just pure old school PHP. |Enjoyed migrating legacy PHP systems to Node.js. |Would like to learn it from the more modern perspective."
+    summary: "Spędziłem mnóstwo czasu pracując z systemami napisanymi w PHP, niestety, w wiekszości przypadków były to stare systemy, które nie uywały zadnych framework'ów (Slim, Laravel). |Moja praca polegała głównie na migrowaniu systemów do Node, sprawiało mi to przyjemność. |W przyszłości chciałbym mieć szansę popracować w bardziej nowoczesnym środowisku PHP i poznać ten język z lepszej strony."
     level: 50
     color: '#7487d6'
   - name: 'Elasticsearch'
     logo: '/logos/elasticsearch.png'
-    summary: 'Monstache & Logstash integration in my little finger. |Created many Kibana dashboards for the business, most of them with Geo data displayed on the map. |Migrated old 5.0.x ELK stacks to the newer releases.'
+    summary: 'Mam Monstache i Logstash w małym palcu, uzywalem tych technologii tyle razy, że żadne wyzwanie nie jest mi straszne. |Potrafię stworzyć skomplikowane panele w Kibana zawierające dane geoprzestrzenne umieszczone na mapach. |Byłem odpowiedzialny za migrację stacków ELK od wersji 5.0.x wzwyż.'
     level: 65
     color: '#ad3194'
 learning:

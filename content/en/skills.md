@@ -1,6 +1,8 @@
 ---
 title: 'Skills'
 layout: 'skills'
+header1: 'I also know:'
+header2: 'I am currently learning:'
 skills:
   - name: 'Node.js'
     logo: '/logos/node-js.png'
@@ -19,7 +21,7 @@ skills:
     color: '#e39f40'
   - name: 'MongoDB'
     logo: '/logos/mongodb.png'
-    summary: "Worked with huge amounts of GeoJSON data. |Created many aggregation queries to optimize system's performance. |Definitely prefer it more than SQL. |Feel confident in PHP,Node->MongoDB stacks."
+    summary: "Worked with huge amounts of GeoJSON data. |Created many aggregation pipelines to optimize system's performance. |Definitely prefer it more than SQL. |Feel confident in PHP,Node->MongoDB stacks."
     level: 70
     color: '#8eed11'
   - name: 'MySQL'
