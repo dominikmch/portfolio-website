@@ -13,6 +13,7 @@
             {{ end }}
     </div>
     <img src="/images/home.jpeg" style="margin-bottom: 30px;">
+    <a style="color: #8ab98a" href="/docs/cv-dominik-michalski.pdf" download>{{ .Params.cv }}</a>
     <footer class="entry-footer">
         {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
     </footer>
