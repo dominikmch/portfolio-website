@@ -1,6 +1,7 @@
 ---
   title: "Cześć, jestem Dominik! \U0001F44B"
   biogSummary: "Fajnie Cię widzieć na mojej stronie internetowej! Jak już wspomniałem, mam na imię Dominik, jestem programistą i mieszkam w Leicester w Wielkiej Brytanii. Moja przygoda z programowaniem zaczęła się, gdy przeprowadziłem się tu na studia do DMU University mając 18 lat. Początki za granicą bez znajomych czy rodziny były wyzwaniem, ale wykształciły mnie w doświadczonego programistę, którym jestem dzisiaj.|Spędziłem lata na rozwijaniu umiejętności, specjalizując się głównie w Node.js, Vue.js i PHP. Uwielbiam tworzyć kod, który nie tylko działa, ale też spełnia swoje zadanie w sposób zgrabny i efektywny.|Poza światem kodowania, kocham gotować. Nie ma nic lepszego niż tworzenie smacznych potraw od podstaw. Kiedy nie siedzę przy komputerze, często eksperymentuję w kuchni, szukając nowych przepisów i smaków.|Poza tym, uwielbiam universum Wiedźmina. Wciągająca fabuła, interesujące postacie - to wszystko sprawia, że nie mogę się od tego oderwać, nie ma znaczenia czy to ksiązka, serial czy gra.|Jestem także pasjonatem japońskiej motoryzacji. Czy to samochody czy robotyka, fascynuje mnie precyzja i innowacyjność, którą oferuje japońska technologia.|Zajrzyj w kazdą zakładkę na mojej stronie, jeśli spodoba Ci się moja osoba i uważasz, ze potrzebujesz kogoś takiego jak ja w swoim zespole, skontaktuj się ze mną używajac danych podanych w moim CV, które możesz pobrać używajac jednej z zakładek."
+  cv: Pobierz moje CV tutaj!
   educationSummary: "Skończyłem z wyróżnieniem Uniwersytet De Montfort w Leicester, na studiach miałem następujące przedmioty:"
   education: "Edukacja"
   modules:
@@ -40,7 +41,7 @@
       dates: 'Jan 2022 - Jan 2023'
       summary: 'Pierwsza prawdziwa praca jako web developer, początki były ciężkie, lecz dość szybko nauczyłem się wszystkiego co było potrzebne do funkcjonowania w firmie. Zacząłem jako Graduate Developer lecz już po miesiącu dostałem awans na Junior Developera.'
     - company: 'Fisher German'
-      dates: 'Jan 2022'
+      dates: 'Styczeń 2022'
       summary: 'Awans na Mid Developera, zwiększenie obowiązków oraz odpowiedzialności. W pewnym momencie byłem jedynym programistą w firmie liczącej ponad 1200 pracowników, mimo to poradziłem sobie ze wszystkimi przypisanymi do mnie zadaniami. Jeśli chcesz dowiedzieć się więcej o technologiach których się nauczyłem, odwiedz mojego LinkedIna podanego na górze strony.'
   careerOverview: "Od magazyniera do programisty, zobacz jak wyglądała moja historia zawodowa krok po kroku."
 ---
